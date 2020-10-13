@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo "JFKDLS WRITEN TO FILE A" > /proof_of_exec.log
