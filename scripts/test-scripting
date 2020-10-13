@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
 echo "JFKDLS WRITEN TO FILE A" > /proof_of_exec.log
+echo "$DIR" >> /proof_of_exec.log
+echo "$REPO_REL_DIR" >> /proof_of_exec.log
