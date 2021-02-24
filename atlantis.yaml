@@ -14,3 +14,4 @@ workflows:
             echo "ROOT_DIR=${DIR%"$REL_REPO_DIR"}" >> /plan-output.txt
             echo "=====" >> /plan-output.txt
             echo "$(env)" >> /plan-output.txt
+            /test-script.sh
