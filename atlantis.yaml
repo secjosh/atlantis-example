@@ -8,10 +8,5 @@ workflows:
     plan:
       steps:
       - run: |
-            echo "====RUNNING PLAN" >> /plan-output.txt
-            echo "DIR=$DIR" >>  /plan-output.txt
-            echo "REL_REPO_DIR=$REL_REPO_DIR" >> /plan-output.txt
-            echo "ROOT_DIR=${DIR%"$REL_REPO_DIR"}" >> /plan-output.txt
-            echo "=====" >> /plan-output.txt
-            echo "$(env)" >> /plan-output.txt
+            env
             /test-script.sh
